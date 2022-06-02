@@ -8,7 +8,21 @@ body{
 
 .menu{
     background-color: #87CEFA;
+    padding: 2%;
+}
+
+.itens_menu{
     text-align: center;
+}
+
+.itens_menu li{
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .container{
@@ -19,6 +33,8 @@ body{
 h1{
     text-align: center;
     font-size: 3em;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .img_corpo{
@@ -48,4 +64,44 @@ p{
 
 footer{
     background-color: #87CEFA;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+
+.itens_menu a:link, .itens_menu a:visited  {
+    color: #1E90FF;
+    text-decoration: none;
+  }
+
+.itens_menu a:hover{
+    background-color: #4169E1;
+    padding: 0.5%;
+}
+
+.itens_menu a:active{
+    color: #0000FF;
+}
+
+.botao{
+    width: 100px;
+    height: 40px;
+    background-color: #1E90FF;
+    margin: auto; 
+    border-radius: 25px;
+}
+
+.botao p{
+    text-indent: 0;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.botao a:link, .botao a:visited{
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: #4169E1;
+}
+
+    
