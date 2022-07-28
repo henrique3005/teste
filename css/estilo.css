@@ -1,3 +1,18 @@
+@font-face {
+    font-family: DancingScript-VariableFont_wght;
+    src: url('../fonts/DancingScript-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: EduNSWACTFoundation-VariableFont_wght;
+    src: url('../fonts/EduNSWACTFoundation-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Caveat-VariableFont_wght;
+    src: url('../fonts/Caveat-VariableFont_wght.ttf');
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -9,6 +24,7 @@ body{
 .menu{
     background-color: #87CEFA;
     padding: 2%;
+    font-family: 'Caveat-VariableFont_wght';
 }
 
 .itens_menu{
@@ -16,7 +32,7 @@ body{
 }
 
 .itens_menu li{
-    font-size: 1.3em;
+    font-size: 1.5em;
     line-height: 1.5;
 }
 
@@ -35,12 +51,14 @@ h1{
     font-size: 3em;
     margin-top: 1%;
     margin-bottom: 1%;
+    font-family: 'DancingScript-VariableFont_wght', cursive;
 }
 
 h2{
     text-align: center;
     margin-top: 1%;
     font-size: 2em;
+    font-family: 'DancingScript-VariableFont_wght', cursive;
 }
 
 .img_corpo{
@@ -75,6 +93,7 @@ p{
     text-indent: 40px;
     text-align: justify;
     line-height: 1.5;
+    font-family: 'EduNSWACTFoundation-VariableFont_wght';
     }
 
 .espaco{
@@ -128,4 +147,11 @@ footer{
     background-color: #4169E1;
 }
 
+table{
+    width: 100%;
+}
+
+table, th, td {
+    padding: 1.5%;
+  }
     
