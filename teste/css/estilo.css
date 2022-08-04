@@ -1,0 +1,188 @@
+@font-face {
+    font-family: DancingScript-VariableFont_wght;
+    src: url('../fonts/DancingScript-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: EduNSWACTFoundation-VariableFont_wght;
+    src: url('../fonts/EduNSWACTFoundation-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Caveat-VariableFont_wght;
+    src: url('../fonts/Caveat-VariableFont_wght.ttf');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:  #E0FFFF;
+}
+
+.menu{
+    background-color: #87CEFA;
+    padding: 2%;
+    font-family: 'Caveat-VariableFont_wght';
+}
+
+.itens_menu{
+    text-align: center;
+}
+
+.itens_menu li{
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'DancingScript-VariableFont_wght', cursive;
+}
+
+h2{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 2em;
+    font-family: 'DancingScript-VariableFont_wght', cursive;
+}
+
+.img_corpo{
+    width: 90%;
+}
+
+figure{
+    text-align: center;
+}
+
+.figure1{
+    width: 90%;
+    margin-top: 1%;
+}
+
+.figure2{
+    width: 10%;
+    margin-top: 1%;
+}
+
+.direita{
+    float: right;
+    margin-left: 0.1%;
+}
+
+.esquerda{
+    float: left;
+    margin-right: 0.1%;
+}
+
+.img_topo{
+    width: 100%;
+}
+
+p{
+    font-size: 1.3em;
+    text-indent: 40px;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: 'EduNSWACTFoundation-VariableFont_wght';
+    }
+
+.espaco{
+    padding: 1%;
+}
+
+.link{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #87CEFA;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.itens_menu a:link, .itens_menu a:visited  {
+    color: #1E90FF;
+    text-decoration: none;
+  }
+
+.itens_menu a:hover{
+    background-color: #4169E1;
+    padding: 0.5%;
+}
+
+.itens_menu a:active{
+    color: #0000FF;
+}
+
+.botao{
+    width: 100px;
+    height: 40px;
+    background-color: #1E90FF;
+    margin: auto; 
+    border-radius: 25px;
+}
+
+.botao p{
+    text-indent: 0;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.botao a:link, .botao a:visited{
+    color: #003468;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: #4169E1;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td{
+    border: 3px groove #85C1E9;
+    padding: 1.5%;
+    text-align: center;
+    font-family: 'Caveat-VariableFont_wght';
+    font-size: 1.2em;
+}
+
+td:first-child { 
+    width: 40%;  
+}
+
+td:first-child + td {  
+    width: 60%; 
+}
+
+th{
+    font-size: 1.5em;
+}
+
+audio{
+    width: 80%;
+}
+
+audio::-webkit-media-controls-panel{ 
+    background-color:#AED6F1 !important; 
+    
+}
+
