@@ -74,6 +74,11 @@ figure{
     margin-top: 1%;
 }
 
+.figure2{
+    width: 10%;
+    margin-top: 1%;
+}
+
 .direita{
     float: right;
     margin-left: 0.1%;
@@ -148,10 +153,36 @@ footer{
 }
 
 table{
+    border-collapse: collapse;
     width: 100%;
 }
 
-table, th, td {
+table, th, td{
+    border: 3px groove #85C1E9;
     padding: 1.5%;
-  }
+    text-align: center;
+    font-family: 'Caveat-VariableFont_wght';
+    font-size: 1.2em;
+}
+
+td:first-child { 
+    width: 40%;  
+}
+
+td:first-child + td {  
+    width: 60%; 
+}
+
+th{
+    font-size: 1.5em;
+}
+
+audio{
+    width: 80%;
+}
+
+audio::-webkit-media-controls-panel{ 
+    background-color:#AED6F1 !important; 
     
+}
+
