@@ -31,24 +31,58 @@
     </header>
     <div class="container">
         <section>
-            <form action="#">
-                <label>Digite seu nome:</label>
-                <input type="text" placeholder="Nome completo"><br>
-                <label>Telefone:</label>
-                <input type="tel" placeholder="(99)99999-9999"><br>
-                <label>Email:</label>
-                <input type="email" placeholder="email@email.com"><br>
-                <label>Assunto:</label>
-                <select>
-                    <option value="1">Reclamações</option>
-                    <option value="2">Dúvidas</option>
-                    <option value="3">Sugestões</option>
-                    <option value="4">Não sei</option>
-                </select><br>   
-                <label>Menssagem:</label>
-                <textarea name="menssage" cols="30" rows="10"></textarea><br>
-                <input type="submit" value="Enviar">
-            </form>
+            <div class="form">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-25">
+                            <label>Digite seu nome:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" placeholder="Nome completo">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label>Telefone:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="tel" placeholder="(99)99999-9999">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label>Email:</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="email" placeholder="email@email.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label>Assunto:</label>
+                        </div>
+                        <div class="col-75">
+                            <select>
+                                <option value="1">Reclamações</option>
+                                <option value="2">Dúvidas</option>
+                                <option value="3">Sugestões</option>
+                                <option value="4">Não sei</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label>Menssagem:</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea name="menssage" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
         </section>
     </div>
     <footer>
