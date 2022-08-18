@@ -217,9 +217,10 @@ input[type=submit] {
     float: right;
     font-family: 'EduNSWACTFoundation-VariableFont_wght';
     font-size: medium;
+    margin-top: 1%;
 }
   
-input[type=submit]:hover {
+input[type=submit]:hover {  
     background-color: #9bebd9;
 }
 
@@ -245,4 +246,11 @@ input[type=submit]:hover {
     content: "";
     display: table;
     clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 1%;
+    }
 }
