@@ -1,162 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/estilo.css" />
-    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon" />
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-
-      input[type="text"],
-      input[type="tel"],
-      input[type="email"],
-      select,
-      textarea {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        resize: vertical;
-      }
-
-      label {
-        padding: 12px 12px 12px 0;
-        display: inline-block;
-      }
-
-      input[type="submit"] {
-        background-color: #04aa6d;
-        color: white;
-        margin-top: 10px;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        float: right;
-      }
-
-      input[type="submit"]:hover {
-        background-color: #45a049;
-      }
-
-      .container {
-        border-radius: 5px;
-        padding: 20px;
-      }
-
-      .col-25 {
-        float: left;
-        width: 25%;
-        margin-top: 6px;
-      }
-
-      .col-75 {
-        float: left;
-        width: 75%;
-        margin-top: 6px;
-      }
-
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-
-      @media screen and (max-width: 600px) {
-        .col-25,
-        .col-75,
-        input[type="submit"] {
-          width: 100%;
-          margin-top: 0;
-        }
-      }
-    </style>
-    <title>Contato</title>
-  </head>
-  <body>
-    <header>
-      <nav class="menu">
-        <div class="logo">
-          <h1>Contato</h1>
-        </div>
-        <div class="itens_menu">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#sobre">Sobre</a></li>
-            <li><a href="index.html#mais">Saiba mais</a></li>
-            <li><a href="paisagem.html">Aprender mais</a></li>
-            <li><a href="paisagem.html#1dica">1ª Dica</a></li>
-            <li><a href="paisagem.html#2dica">2ª Dica</a></li>
-            <li><a href="musicas.html">Músicas</a></li>
-            <li><a href="contato.html">Contato</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <div class="container">
-      <section>
-        <div class="form">
-          <form action="#">
-            <div class="row">
-              <div class="col-25">
-                <label>Digite seu nome:</label>
+<head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/reset.css" />
+      <link rel="stylesheet" href="css/estilo.css" />
+      <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon" />
+      <title>Contato</title>
+</head>
+<body>
+      <header>
+        <nav class="menu">
+          <div class="logo">
+            <h1>Contato</h1>
+          </div>
+          <div class="itens_menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#sobre">Sobre</a></li>
+              <li><a href="index.html#mais">Saiba mais</a></li>
+              <li><a href="paisagem.html">Aprender mais</a></li>
+              <li><a href="paisagem.html#1dica">1ª Dica</a></li>
+              <li><a href="paisagem.html#2dica">2ª Dica</a></li>
+              <li><a href="musicas.html">Músicas</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container">
+        <section>
+          <div class="form">
+            <form action="#">
+              <div class="row">
+                <div class="col-25">
+                  <label>Digite seu nome:</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" placeholder="Nome completo" />
+                </div>
               </div>
-              <div class="col-75">
-                <input type="text" placeholder="Nome completo" />
+                <div class="row">
+                <div class="col-25">
+                  <label>Telefone:</label>
+                </div>
+                <div class="col-75">
+                  <input type="tel" placeholder="(99) 99999-9999" />
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label>Telefone:</label>
+              <div class="row">
+                <div class="col-25">
+                  <label>Email:</label>
+                </div>
+                <div class="col-75">
+                  <input type="email" placeholder="email@email.com" />
+               </div>
               </div>
-              <div class="col-75">
-                <input type="tel" placeholder="(99)99999-9999" />
+              <div class="row">
+                <div class="col-25">
+                  <label>Assunto:</label>
+                </div>
+                <div class="col-75">
+                  <select>
+                    <option value="1">Reclamações</option>
+                    <option value="2">Dúvidas</option>
+                    <option value="3">Sugestões</option>
+                    <option value="4">Mais informações</option>
+                    <option value="5">Não sei</option>
+                  </select>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label>Email:</label>
+              <div class="row">
+                <div class="col-25">
+                  <label>Menssagem:</label>
+                </div>
+                <div class="col-75">
+                  <textarea name="menssage" cols="30" rows="10"></textarea>
+                </div>
               </div>
-              <div class="col-75">
-                <input type="email" placeholder="email@email.com" />
+              <div class="row">
+                <input type="submit" value="Enviar" />
               </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label>Assunto:</label>
-              </div>
-              <div class="col-75">
-                <select>
-                  <option value="1">Reclamações</option>
-                  <option value="2">Dúvidas</option>
-                  <option value="3">Sugestões</option>
-                  <option value="4">Mais informações</option>
-                  <option value="5">Não sei</option>
-                </select>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label>Menssagem:</label>
-              </div>
-              <div class="col-75">
-                <textarea name="menssage" cols="30" rows="10"></textarea>
-              </div>
-            </div>
-            <div class="row">
-              <input type="submit" value="Enviar" />
-            </div>
-          </form>
-        </div>
-      </section>
-    </div>
-    <footer>
-      <p>Desenvolvido por Henrique</p>
-    </footer>
-  </body>
+            </form>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <p>Desenvolvido por Henrique</p>
+      </footer>
+    </body>
 </html>
