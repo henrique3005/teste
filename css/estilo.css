@@ -197,12 +197,14 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
     border-radius: 15px;
     resize: vertical;
     font-family: 'EduNSWACTFoundation-VariableFont_wght';
+    font-size: medium;
 }
 
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
     font-family: 'EduNSWACTFoundation-VariableFont_wght';
+    font-size: medium;
 }
 
 input[type=submit] {
@@ -214,6 +216,7 @@ input[type=submit] {
     cursor: pointer;
     float: right;
     font-family: 'EduNSWACTFoundation-VariableFont_wght';
+    font-size: medium;
 }
   
 input[type=submit]:hover {
